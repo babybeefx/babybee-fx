@@ -37,11 +37,11 @@ export default function BabyBeePortfolio() {
 
   // Add birthdays (MM-DD)
   const team = [
-    { name: "Sakib S.", role: "Founder & Visual Lead", linkedin: "https://www.linkedin.com/", birthday: "04-30" },
-    { name: "M. Bhuiyan", role: "Chief Operating Officer", linkedin: "https://www.linkedin.com/", birthday: "04-23" },
-    { name: "Newaz", role: "Chief Strategy Advisor", linkedin: "https://www.linkedin.com/", birthday: "03-01" },
-    { name: "Shithil", role: "Post-Production Lead", linkedin: "https://www.linkedin.com/", birthday: "03-19" },
-    { name: "Zinan", role: "Sr. Lead Expert", linkedin: "https://www.linkedin.com/", birthday: "01-01" }
+    { name: "Sakib S.", role: "Founder & Visual Lead", linkedin: "https://www.linkedin.com/in/sakibsalim99", birthday: "04-30" },
+    { name: "M. Bhuiyan", role: "Chief Operating Officer", linkedin: "https://www.linkedin.com/in/mahinbhuiyan0", birthday: "04-23" },
+    { name: "Newaz", role: "Chief Strategy Advisor", linkedin: "https://www.linkedin.com/in/newaztorsha143", birthday: "03-01" },
+    { name: "Shithil", role: "Post-Production Lead", Facebook: "https://www.facebook.com/shaharifulalam12", birthday: "03-19" },
+    { name: "Zinan", role: "Sr. Lead Expert", Facebook: "https://www.facebook.com/zinan707", birthday: "01-01" }
   ];
 
   // Compute today's birthdays
