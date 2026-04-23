@@ -12,15 +12,15 @@ export default function BabyBeePortfolio() {
 
   const portfolio = {
     long: [
-      { id: 1, title: "Brand Film", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 2, title: "Commercial Ad", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 3, title: "Product Story", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 4, title: "Campaign Film", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 5, title: "Brand Story", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 6, title: "Corporate Video", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 7, title: "Product Showcase", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 8, title: "Event Recap", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 9, title: "Story Edit", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" }
+      { id: 1, title: "Virgo Activation", url: "https://youtu.be/k52XCGJTNis" },
+      { id: 2, title: "Infinity Mega Mall Campaign", url: "https://youtu.be/EMYGkNmYhv8" },
+      { id: 3, title: "Virgo Activation Teaser", url: "https://youtu.be/hyOK73jeKzc" },
+      { id: 4, title: "LeReve Kids", url: "https://youtu.be/8mEr92Flwm8" },
+      { id: 5, title: "Yellow Activation", url: "https://youtu.be/eDFHErCYxto" },
+      { id: 6, title: "Cinematic Content", url: "https://youtu.be/Ky_OH6SkHU4" },
+      { id: 7, title: "Falaq Food | Sundarban Cinematic", url: "https://youtu.be/pA4tvwVWKsQ?si=UuM3fZ2cIuy4tAry" },
+      { id: 8, title: "Falaq Food | OVC", url: "https://youtu.be/K1mRb29n_C8?si=WWsV1Qh5KQT5KE_s" },
+      { id: 9, title: "Talking Head", url: "https://youtu.be/GRXumI4AfZE?si=-iHY3WLfSgduCbhV" }
     ],
     short: [
       { id: 10, title: "Reel Edit", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
