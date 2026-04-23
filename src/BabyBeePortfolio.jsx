@@ -120,7 +120,12 @@ export default function BabyBeePortfolio() {
       {/* NAVBAR */}
       <header className="fixed top-0 left-0 w-full backdrop-blur-xl bg-white/5 border-b border-white/10 z-50">
         <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
-          <h1 className="text-lg font-semibold tracking-wide">BabyBee</h1>
+          <h1
+  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+  className="text-lg font-semibold tracking-wide cursor-pointer hover:opacity-80 transition"
+>
+  BabyBee
+</h1>
 
           <div className="flex items-center gap-4">
             {/* Notification Button */}
