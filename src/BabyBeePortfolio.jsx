@@ -42,7 +42,6 @@ export default function BabyBeePortfolio() {
     { name: "Newaz", role: "Chief Strategy Advisor", linkedin: "https://www.linkedin.com/", birthday: "03-01" },
     { name: "Shithil", role: "Post-Production Lead", linkedin: "https://www.linkedin.com/", birthday: "03-19" },
     { name: "M. Hossin", role: "Cyber Security Mentor", linkedin: "https://www.linkedin.com/", birthday: "01-01" }
-    { name: "Zinan", role: "Sr. Lead Expert", linkedin: "https://www.linkedin.com/", birthday: "01-01"}
   ];
 
   // Compute today's birthdays
