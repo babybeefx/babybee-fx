@@ -131,8 +131,8 @@ export default function BabyBeePortfolio() {
         {/* Secondary Glow */}
         <div className="absolute bottom-[-120px] right-[-120px] w-[300px] h-[300px] bg-[#FFA500] opacity-10 blur-[120px] rounded-full" />
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-semibold leading-tight tracking-tight max-w-3xl">
-            Visual Content That Performs
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold leading-tight tracking-tight max-w-3xl">
+            High-Converting Visual Content for Modern Brands
           </h1>
           <p className="mt-6 text-white/50 text-lg max-w-xl">
             Strategic video editing and motion design built for brands that value quality, clarity, and measurable impact.
@@ -215,7 +215,10 @@ export default function BabyBeePortfolio() {
                 className="group relative aspect-video bg-white/5 rounded-xl border border-white/10 overflow-hidden cursor-pointer transition transform hover:scale-[1.03]"
               >
                 <div className="absolute inset-0 flex items-center justify-center text-white/40 text-sm group-hover:scale-110 transition">
-                  {item.title}
+                  <img
+                    src={`https://img.youtube.com/vi/${item.url.split('/embed/')[1]}/hqdefault.jpg`}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition" />
               </div>
