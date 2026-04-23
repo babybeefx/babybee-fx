@@ -37,12 +37,52 @@ export default function BabyBeePortfolio() {
 
   // Add birthdays (MM-DD)
   const team = [
-    { name: "Sakib S.", role: "Founder & Visual Lead", linkedin: "https://www.linkedin.com/in/sakibsalim99", birthday: "04-30" },
-    { name: "M. Bhuiyan", role: "Chief Operating Officer", linkedin: "https://www.linkedin.com/in/mahinbhuiyan0", birthday: "04-23" },
-    { name: "Newaz", role: "Chief Strategy Advisor", linkedin: "https://www.linkedin.com/in/newaztorsha143", birthday: "03-01" },
-    { name: "Shithil", role: "Post-Production Lead", Facebook: "https://www.facebook.com/shaharifulalam12", birthday: "03-19" },
-    { name: "Zinan", role: "Sr. Lead Expert", Facebook: "https://www.facebook.com/zinan707", birthday: "01-01" }
-  ];
+  {
+    name: "Sakib S.",
+    role: "Founder & Visual Lead",
+    image: "/team/sakib.jpg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/sakibsalim99"
+    },
+    birthday: "04-30"
+  },
+  {
+    name: "M. Bhuiyan",
+    role: "Chief Operating Officer",
+    image: "/team/mahin.jpg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/mahinbhuiyan0"
+    },
+    birthday: "04-23"
+  },
+  {
+    name: "Newaz",
+    role: "Chief Strategy Advisor",
+    image: "/team/newaz.jpg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/newaztorsha143"
+    },
+    birthday: "03-01"
+  },
+  {
+    name: "Shithil",
+    role: "Post-Production Lead",
+    image: "/team/shithil.jpg",
+    socials: {
+      facebook: "https://www.facebook.com/shaharifulalam12"
+    },
+    birthday: "03-19"
+  },
+  {
+    name: "Zinan",
+    role: "Sr. Lead Expert",
+    image: "/team/zinan.jpg",
+    socials: {
+      facebook: "https://www.facebook.com/zinan707"
+    },
+    birthday: "01-01"
+  }
+];
 
   // Compute today's birthdays
   const todaysBirthdays = useMemo(() => {
@@ -281,11 +321,46 @@ export default function BabyBeePortfolio() {
           Let’s collaborate and build visuals that elevate your brand presence.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <button className="px-6 py-3 rounded-full text-sm backdrop-blur-xl bg-white/10 border border-white/20 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.3)] hover:bg-white/20 transition transform hover:scale-[1.02] active:scale-[0.98] active:bg-white/15 relative overflow-hidden">WhatsApp</button>
-          <button className="px-6 py-3 rounded-full text-sm backdrop-blur-xl bg-white/5 border border-white/20 text-white/80 hover:bg-white/10 transition">Facebook</button>
-          <button className="px-6 py-3 rounded-full text-sm backdrop-blur-xl bg-white/5 border border-white/20 text-white/80 hover:bg-white/10 transition">Instagram</button>
-          <button className="px-6 py-3 rounded-full text-sm backdrop-blur-xl bg-white/5 border border-white/20 text-white/80 hover:bg-white/10 transition">Email</button>
-        </div>
+
+  {/* WhatsApp */}
+  <a
+    href="https://wa.me/8801962162892"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 rounded-full text-sm backdrop-blur-xl bg-white/10 border border-white/20 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.3)] hover:bg-white/20 transition transform hover:scale-[1.02] active:scale-[0.98] active:bg-white/15"
+  >
+    WhatsApp
+  </a>
+
+  {/* Messenger */}
+  <a
+    href="https://m.me/babybee.fx"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 rounded-full text-sm backdrop-blur-xl bg-white/5 border border-white/20 text-white/80 hover:bg-white/10 transition"
+  >
+    Messenger
+  </a>
+
+  {/* Instagram */}
+  <a
+    href="https://instagram.com/babybee.agency"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 rounded-full text-sm backdrop-blur-xl bg-white/5 border border-white/20 text-white/80 hover:bg-white/10 transition"
+  >
+    Instagram
+  </a>
+
+  {/* Email */}
+  <a
+    href="mailto:connect@babybeestudios.com"
+    className="px-6 py-3 rounded-full text-sm backdrop-blur-xl bg-white/5 border border-white/20 text-white/80 hover:bg-white/10 transition"
+  >
+    Email
+  </a>
+
+</div>
       </section>
 
       {/* FOOTER */}
