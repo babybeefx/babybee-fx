@@ -19,7 +19,7 @@ export default function BabyBeePortfolio() {
       { id: 5, title: "Yellow Activation", url: "https://youtu.be/eDFHErCYxto" },
       { id: 6, title: "Cinematic Content", url: "https://youtu.be/Ky_OH6SkHU4" },
       { id: 7, title: "Falaq Food | Sundarban Cinematic", url: "https://youtu.be/pA4tvwVWKsQ?si=UuM3fZ2cIuy4tAry" },
-      { id: 8, title: "Falaq Food | OVC", url: "https://youtu.be/K1mRb29n_C8?si=WWsV1Qh5KQT5KE_s" },
+      { id: 8, title: "Falaq Food | OVC", url: "https://www.youtube.com/embed/K1mRb29n_C8?si=WWsV1Qh5KQT5KE_s&amp;controls=0" },
       { id: 9, title: "Talking Head", url: "https://youtu.be/GRXumI4AfZE?si=-iHY3WLfSgduCbhV" }
     ],
     short: [
