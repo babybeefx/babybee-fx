@@ -12,26 +12,26 @@ export default function BabyBeePortfolio() {
 
   const portfolio = {
     long: [
-      { id: 1, title: "Virgo Activation", url: "https://youtu.be/k52XCGJTNis" },
-      { id: 2, title: "Infinity Mega Mall Campaign", url: "https://youtu.be/EMYGkNmYhv8" },
-      { id: 3, title: "Virgo Activation Teaser", url: "https://youtu.be/hyOK73jeKzc" },
-      { id: 4, title: "LeReve Kids", url: "https://youtu.be/8mEr92Flwm8" },
-      { id: 5, title: "Yellow Activation", url: "https://youtu.be/eDFHErCYxto" },
-      { id: 6, title: "Cinematic Content", url: "https://youtu.be/Ky_OH6SkHU4" },
-      { id: 7, title: "Falaq Food | Sundarban Cinematic", url: "https://youtu.be/pA4tvwVWKsQ?si=UuM3fZ2cIuy4tAry" },
-      { id: 8, title: "Falaq Food | OVC", url: "https://www.youtube.com/embed/K1mRb29n_C8" },
-      { id: 9, title: "Talking Head", url: "https://youtu.be/GRXumI4AfZE?si=-iHY3WLfSgduCbhV" }
+      { id: 1, title: "Virgo Activation", url: "https://www.youtube.com/embed/k52XCGJTNis" },
+      { id: 2, title: "Infinity Mega Mall Campaign", url: "https://www.youtube.com/embed/EMYGkNmYhv8" },
+      { id: 3, title: "Virgo Activation Teaser", url: "https://www.youtube.com/embed/hyOK73jeKzc" },
+      { id: 4, title: "LeReve Kids", url: "https://www.youtube.com/embed/8mEr92Flwm8" },
+      { id: 5, title: "Yellow Activation", url: "https://www.youtube.com/embed/eDFHErCYxto" },
+      { id: 6, title: "Talking Head", url: "https://www.youtube.com/embed/GRXumI4AfZE" },
+      { id: 7, title: "Talking Head", url: "https://www.youtube.com/embed/LV8Iew4irP4" },
+      { id: 8, title: "Cinematic", url: "https://www.youtube.com/embed/pA4tvwVWKsQ&t" },
+      { id: 9, title: "Podcast Intro", url: "https://www.youtube.com/embed/bTGq2Cyqj2I" }
     ],
     short: [
-      { id: 10, title: "Reel Edit", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 11, title: "TikTok Ad", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 12, title: "Short Promo", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 13, title: "UGC Ad", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 14, title: "Hook Edit", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 15, title: "Social Cut", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 16, title: "Ad Variation", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 17, title: "Promo Clip", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-      { id: 18, title: "Engagement Reel", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" }
+      { id: 10, title: "Talking Head Reel", url: "https://www.youtube.com/embed/w_UwaIsEgZU" },
+      { id: 11, title: "Talking Head Reel", url: "https://www.youtube.com/embed/btLZ-RiXS8w" },
+      { id: 12, title: "Fashion Reel", url: "https://www.youtube.com/embed/fH0qe7HxvRU" },
+      { id: 13, title: "Fashion Reel", url: "https://www.youtube.com/embed/-93UdvcMQrk" },
+      { id: 14, title: "UGC", url: "https://www.youtube.com/embed/nS8pCWJJZdQ" },
+      { id: 15, title: "UGC", url: "https://www.youtube.com/embed/hVZXml2_vpA" },
+      { id: 16, title: "UGC", url: "https://www.youtube.com/embed/tsomcoJKKuY" },
+      { id: 17, title: "UGC", url: "https://www.youtube.com/embed/yGqBZ9DTcwE" },
+      { id: 18, title: "Talking Head Reel", url: "https://www.youtube.com/embed/JDLyXdoFwkI" }
     ]
   };
 
@@ -42,6 +42,7 @@ export default function BabyBeePortfolio() {
     { name: "Newaz", role: "Chief Strategy Advisor", linkedin: "https://www.linkedin.com/", birthday: "03-01" },
     { name: "Shithil", role: "Post-Production Lead", linkedin: "https://www.linkedin.com/", birthday: "03-19" },
     { name: "M. Hossin", role: "Cyber Security Mentor", linkedin: "https://www.linkedin.com/", birthday: "01-01" }
+    { name: "Zinan", role: "Sr. Lead Expert", linkedin: "https://www.linkedin.com/", birthday: "01-01"}
   ];
 
   // Compute today's birthdays
@@ -89,7 +90,7 @@ export default function BabyBeePortfolio() {
               className="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/10 backdrop-blur-xl text-xs text-white/80 hover:bg-white/20 transition relative"
             >
               <div className="w-6 h-6 rounded-full bg-white/20" />
-              <span>🔔 Notifications</span>
+              <span>🔔 Events</span>
               {hasBirthday && (
                 <span className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-white" />
               )}
@@ -100,7 +101,7 @@ export default function BabyBeePortfolio() {
                 { id: "about", label: "About" },
                 { id: "services", label: "Services" },
                 { id: "portfolio", label: "Portfolio" },
-                { id: "team", label: "Team" },
+                { id: "team", label: "Our Team" },
                 { id: "contact", label: "Contact" }
               ].map((item) => (
                 <a
